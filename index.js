@@ -14,7 +14,7 @@ const auth = new google.auth.GoogleAuth({
 const sheets = google.sheets({ version: "v4", auth });
 
 // ID de tu Google Sheet (copia de la URL)
-const SPREADSHEET_ID = "TU_SPREADSHEET_ID_AQUI";
+const SPREADSHEET_ID = "1R86_tE5r3iC432RMJCBScD9hEJUMMAOlZ2F8YaVUzuE";
 
 // Ruta para recibir webhooks de TikTok
 app.post("/webhook", async (req, res) => {
